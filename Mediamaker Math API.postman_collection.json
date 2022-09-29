@@ -1,0 +1,142 @@
+{
+	"info": {
+		"_postman_id": "24a302bb-f249-4490-b15a-013cc8e59c0f",
+		"name": "Mediamaker Math API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20880052"
+	},
+	"item": [
+		{
+			"name": "Addition",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ItemA\": 1,\r\n    \"ItemB\": -10\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5043/api/math/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5043",
+					"path": [
+						"api",
+						"math",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Subtraction",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ItemA\": 1,\r\n    \"ItemB\": -10\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5043/api/math/subtract",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5043",
+					"path": [
+						"api",
+						"math",
+						"subtract"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Multiply",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ItemA\": 2,\r\n    \"ItemB\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5043/api/math/multiply",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5043",
+					"path": [
+						"api",
+						"math",
+						"multiply"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Divide",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ItemA\": 10,\r\n    \"ItemB\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5043/api/math/divide",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5043",
+					"path": [
+						"api",
+						"math",
+						"divide"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

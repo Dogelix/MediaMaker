@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediamakerMathAPI", "MediamakerMathAPI\MediamakerMathAPI.csproj", "{30B3ECF6-5F47-437D-B9FB-3623AFB50199}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediamakerMathAPI.Domain", "MediamakerMathAPI.Domain\MediamakerMathAPI.Domain.csproj", "{8278BA54-9B80-4121-9EF1-40436C7C2EEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30B3ECF6-5F47-437D-B9FB-3623AFB50199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30B3ECF6-5F47-437D-B9FB-3623AFB50199}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30B3ECF6-5F47-437D-B9FB-3623AFB50199}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30B3ECF6-5F47-437D-B9FB-3623AFB50199}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8278BA54-9B80-4121-9EF1-40436C7C2EEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8278BA54-9B80-4121-9EF1-40436C7C2EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8278BA54-9B80-4121-9EF1-40436C7C2EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8278BA54-9B80-4121-9EF1-40436C7C2EEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CFF08E40-F0BB-4B86-842F-955FA4BDA291}
+	EndGlobalSection
+EndGlobal
